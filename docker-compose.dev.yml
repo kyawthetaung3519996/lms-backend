@@ -26,6 +26,7 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_HOST: db
       RAILS_ENV: development
+      SECRET_KEY_BASE: bd006e747a8397942e34ab5650ac07dec77bb8df74df819296e66607c5f46e5be893bebc9e2b86895a3663c3581d488db64938f4a1f8d7a981953a1ec0975b02
       DATABASE_URL: postgres://postgres:password@db:5432/rails_dev
 
 volumes:
